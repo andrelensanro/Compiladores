@@ -1,0 +1,28 @@
+	
+	El analizador lexico, trabaja sobre demanda y necesita:
+
+		tabla afd de las expresiones que tiene asociada un token
+	----------------------------------------------------------------------------------
+	El token es 0 cuando no es un estado final, ME LO DA DELTA_AFD
+		RESPUESTA de find_transition.
+
+	El destino es -1 cuando no hay transicion.
+		RESPUESTA de find_transition.
+	-----------------------------------------------------------------------------------
+	El token es -1 cuando no hay estado final, no hay transicion, no es fin de cadena.
+		RESPUESTA de funcion_Lexica. 
+
+	El token sea 0 es fin de cadena.
+		RESPUESTA de funcion_Lexica. 
+
+	El token es > 1 cuando hay estado final.
+		RESPUESTA de funcion_Lexica. 
+	------------------------------------------------------------------------------------
+	La funcion ctrlZ_analizadorLexico
+	utiliza una pila global, cuando entra al while checar que se saca de la pila 
+	todo aquello que este en el tope, siendo así para que no me genere repeticiones y solo se debe tener 
+	un elemento dentro, nunca hay mas de un elemento. 
+
+	
+
+	

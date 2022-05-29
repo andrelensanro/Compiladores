@@ -1,0 +1,1 @@
+E->.T.Ep;Ep->.\+.T.Ep|\-.T.Ep|epsilon;T->.F.Tp;Tp->.\*F.Tp|\/.F.Tp|epsilon;F->.\(.E.\)|num;

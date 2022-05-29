@@ -1,0 +1,1 @@
+E->.T.Ep;Ep->.\+.T.Ep|\-.T.Ep|epsilon;T->.P.Tp;Tp->.\*.P.Tp|\/.P.Tp|epsilon;P->.F.Pp;Pp->.\^.F.Pp|epsilon;F->.\(.E.\)|sin.\(.E.\)|cos.\(.E.\)|tan.\(.E.\)|num;

@@ -1,0 +1,1 @@
+E->.T.Ep;Ep->.\|.T.Ep|eps;T->.C.Tp;Tp->.\!.C.Tp|eps;C->.F.Cp;Cp->\+.Cp|\*.Cp|\?.Cp|eps;F->\(.E.\)|\[.simb.\-.simb.\]|simb;

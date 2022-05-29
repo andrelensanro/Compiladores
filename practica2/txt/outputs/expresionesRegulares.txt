@@ -1,0 +1,31 @@
+		:::tabla_expresionesRegulares:::
+
+	Descripcion: se muestra el estado inicial seguido del (los) caracter(es) de transición
+	y a continuación encuentra el estado destino. Si el estado inicial es final se encuentra
+	un número distinto de 0 que representa el token. El estado que no tiene transiciones
+	tendrá en su lugar '---'.
+
+0 [o-o] 1 0
+0 [&-&] 2 0
+0 [+-+] 3 0
+0 [*-*] 4 0
+0 [?-?] 5 0
+0 [(-(] 6 0
+0 [)-)] 7 0
+0 [[-[] 8 0
+0 [_-_] 9 0
+1 [r-r] 10 0
+2 --- 1010
+3 --- 1020
+4 --- 1030
+5 --- 1040
+6 --- 1050
+7 --- 1060
+8 [_-_] 11 0
+9 --- 1080
+10 --- 1000
+11 [---] 12 0
+12 [_-_] 13 0
+13 []-]] 14 0
+14 --- 1070
+--

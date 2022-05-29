@@ -1,0 +1,1 @@
+G->Reglas;Reglas->.Regla.\;.ReglasP;ReglasP->.Regla.\;.ReglasP|epsilon;Regla->.LadoIzq.\->.LadosDerechos;LadoIzq->.simb;LadosDerechos->.LadoDerecho.LadosDerechosP;LadosDerechosP->.\|.LadoDerecho.LadosDerechosP|epsilon;LadoDerecho->.ListaSimbolos;ListaSimbolos->.simb.ListaSimbolosP;ListaSimbolosP->.simb.ListaSimbolosP|epsilon;

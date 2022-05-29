@@ -1,0 +1,11 @@
+		:::tabla_clases_lexicas_ER:::
+
+	Descripcion: se muestra el estado inicial seguido del (los) caracter(es) de transición
+	y a continuación encuentra el estado destino. Si el estado inicial es final se encuentra
+	un número distinto de 0 que representa el token. El estado que no tiene transiciones
+	tendrá en su lugar '---'.
+
+--
+0 [ -~] 1 0
+1 --- -1 10
+--
